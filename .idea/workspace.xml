@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de78d1e7-ab32-40ef-8c32-44103d82563a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer_Prise_Index.py" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer_Prise_Index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gross_Domestic_Product.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gross_Domestic_Product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producer_Price_Index.py" beforeDir="false" afterPath="$PROJECT_DIR$/Producer_Price_Index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/US_Crude_Inventories.py" beforeDir="false" afterPath="$PROJECT_DIR$/US_Crude_Inventories.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/US_Non-Agricultural_Employment_Population.py" beforeDir="false" afterPath="$PROJECT_DIR$/US_Non-Agricultural_Employment_Population.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unemployment_Rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unemployment_Rate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -202,10 +196,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -213,7 +206,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
