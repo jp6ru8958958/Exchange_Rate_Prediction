@@ -10,9 +10,9 @@ Response.encoding='Utf-8'
 soup=BeautifulSoup(Response.text,"html.parser")
 find=soup.select("td.datatable-item.datatable-item-positive")#數據
 
-print("  Actual  Previous 	Consensus TEForecast ")
+print(" month     Actual  Previous  Consensus TEForecast ")
 for row in range(7):
-    print("--------------------------------------------")
+    print("-------------------------------------------------")
     print_=row*4
-    print("%7s  %7s   %7s    %7s"%(str.strip(find[print_].text),str.strip(find[print_+1].text),str.strip(find[print_+2].text),str.strip(find[print_+3].text)))
+    print("2019 -",row+1,"%7s  %7s   %7s    %7s"%(str.strip(find[print_].text),str.strip(find[print_+1].text),str.strip(find[print_+2].text),str.strip(find[print_+3].text)))
 
