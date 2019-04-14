@@ -1384,3 +1384,32 @@ IPDL protocol Error: Received an invalid file descriptor
 1555171024561	Marionette	INFO	Listening on port 35327
 1555171024652	Marionette	WARN	TLS certificate errors will be ignored for this session
 IPDL protocol Error: Received an invalid file descriptor
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  remote-settings/monitor_changes
+  threw error:
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1555171082356	Marionette	INFO	Stopped listening on port 46283
+[Parent 20987, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1555171083120	Marionette	INFO	Stopped listening on port 43335
+[Parent 21336, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1555171083908	Marionette	INFO	Stopped listening on port 35327

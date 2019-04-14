@@ -11,10 +11,10 @@ driver.find_element_by_xpath(
     u"(.//*[normalize-space(text()) and normalize-space(.)='搜尋 文件開始'])[1]/preceding::option[2]").click()
 driver.find_element_by_name("sel").click()
 html = driver.page_source
-#print(html)
+# print(html)
 
 soup = BeautifulSoup(html,"html.parser")
-gdp = soup.select("td",nowrap="")
+gdp = soup.select("td", nowrap="")
 print("Years          GDP")
 for year in range(67):
     years=year*2
