@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de78d1e7-ab32-40ef-8c32-44103d82563a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Consumer_Prise_Index.py" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer_Prise_Index.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Producer_Price_Index.py" beforeDir="false" afterPath="$PROJECT_DIR$/Producer_Price_Index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Unemployment_Rate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="62">
+              <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="e#5#20#0" expanded="true" />
               </folding>
@@ -53,10 +55,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Consumer_Prise_Index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
               <folding>
-                <element signature="e#9#24#0" expanded="true" />
+                <element signature="e#10#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,9 +67,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Producer_Price_Index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="558">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
-                <element signature="e#9#39#0" expanded="true" />
+                <element signature="e#10#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,10 +106,10 @@
         <option value="$PROJECT_DIR$/US_non-agricultural_employment.py" />
         <option value="$PROJECT_DIR$/US_non-agricultural_employment_population.py" />
         <option value="$PROJECT_DIR$/Unemployment_Rate.py" />
-        <option value="$PROJECT_DIR$/Consumer_Prise_Index.py" />
         <option value="$PROJECT_DIR$/US_Non-Agricultural_Employment_Population.py" />
         <option value="$PROJECT_DIR$/Gross_Domestic_Product.py" />
         <option value="$PROJECT_DIR$/US_Crude_Inventories.py" />
+        <option value="$PROJECT_DIR$/Consumer_Prise_Index.py" />
         <option value="$PROJECT_DIR$/Producer_Price_Index.py" />
       </list>
     </option>
@@ -285,12 +288,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19009838" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19009838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32793522" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32793522" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,26 +331,6 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unemployment_Rate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#5#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Consumer_Prise_Index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#9#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gross_Domestic_Product.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
@@ -358,11 +341,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Producer_Price_Index.py">
+    <entry file="file://$PROJECT_DIR$/Consumer_Prise_Index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
           <folding>
-            <element signature="e#9#39#0" expanded="true" />
+            <element signature="e#10#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unemployment_Rate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#5#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producer_Price_Index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#10#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
