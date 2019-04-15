@@ -14,7 +14,7 @@ html = driver.page_source
 # print(html)
 
 soup = BeautifulSoup(html, "html.parser")
-PPI = soup.select("td", nowrap="")
+CPI = soup.select("td", nowrap="")
 print("", end="          ")
 for print_M in range(12):
     print("M%2d"%(print_M+1), end="      ")
@@ -22,6 +22,6 @@ print("")
 for print_ in range(39):
     move = print_ * 24 + 5
     print(1981+print_, end="  ")
-    for print_PPI in range(12):
-        print("%7s"%(PPI[move+print_PPI*2].text), end="  ")
+    for print_CPI in range(12):
+        print("%7s"%(CPI[move+print_CPI*2].text), end="  ")
     print("")

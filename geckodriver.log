@@ -1684,3 +1684,29 @@ IPDL protocol Error: Received an invalid file descriptor
 1555327273036	Marionette	INFO	Listening on port 36959
 1555327273094	Marionette	WARN	TLS certificate errors will be ignored for this session
 IPDL protocol Error: Received an invalid file descriptor
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+[Parent 13524, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1555327402302	Marionette	INFO	Stopped listening on port 36959
+1555328080369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NnbACmhpBjJE"
+1555328080766	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1555328080766	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+1555328081997	Marionette	INFO	Listening on port 43105
+1555328082076	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol Error: Received an invalid file descriptor
+1555328290202	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QFFjYWJuiP7c"
+1555328290557	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1555328290557	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+1555328291913	Marionette	INFO	Listening on port 42073
+1555328292009	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol Error: Received an invalid file descriptor
