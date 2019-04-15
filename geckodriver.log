@@ -1710,3 +1710,22 @@ IPDL protocol Error: Received an invalid file descriptor
 1555328291913	Marionette	INFO	Listening on port 42073
 1555328292009	Marionette	WARN	TLS certificate errors will be ignored for this session
 IPDL protocol Error: Received an invalid file descriptor
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+[Parent 14446, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1555328426765	Marionette	INFO	Stopped listening on port 43105
+1555328428054	Marionette	INFO	Stopped listening on port 42073

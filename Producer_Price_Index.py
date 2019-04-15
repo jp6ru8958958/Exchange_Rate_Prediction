@@ -1,4 +1,5 @@
 # 生產者物價指數
+'''
 import requests
 from bs4 import BeautifulSoup
 url=''
@@ -8,3 +9,4 @@ Response.encoding='Utf-8'
 #print(Response.text)
 soup=BeautifulSoup(Response.text,"html.parser")
 #find=soup.select("")
+'''
