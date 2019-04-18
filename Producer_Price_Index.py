@@ -1,4 +1,4 @@
-# 生產者物價指數
+# 生產者物價指數 找不到適合的網站爬
 '''
 import requests
 from bs4 import BeautifulSoup
