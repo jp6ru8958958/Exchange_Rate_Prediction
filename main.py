@@ -2,9 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
+
 class Crawler():
 
-    def __init__(self,select_feature):
+    def __init__(self, select_feature):
         self.feature = select_feature
         if (select_feature == "1"):
             self.URL = "http://statdb.dgbas.gov.tw/pxweb/Dialog/varval.asp?ma=PR0101A1M&ti=%AE%F8%B6O%AA%CC%AA%AB%BB%F9%B0%F2%A5%BB%A4%C0%C3%FE%AB%FC%BC%C6-%A4%EB&path=../PXfile/PriceStatistics/&lang=9&strList=L"
@@ -37,9 +38,9 @@ class Crawler():
         print("")
         for print_ in range(39):
             move = print_ * 24 + 5
-            if((1981+print_) >= 2019):
+            if((1981 + print_) >= 2019):
                 month = 4
-                if((1981+print_)==2020):
+                if((1981 + print_) == 2020):
                     break
             print(1981 + print_, end="  ")
             for print_CPI in range(month):
@@ -131,9 +132,11 @@ class Crawler():
             str.strip(find[print_].text), str.strip(find[print_ + 1].text), str.strip(find[print_ + 2].text),
             str.strip(find[print_ + 3].text)))
 
+
 while(1):
     User_in = input("1.消費者物價指數\n2.國內生產毛額(GDP)\n3.失業率\n4.美國原油庫存量\n5.美國非農就業人口\n")
     Search = Crawler(User_in)
+
     if(User_in == "1"):
         Search.Consumer_Prise_Index()
     elif(User_in == "2"):
@@ -146,5 +149,6 @@ while(1):
         Search.US_Non_Agricultural_Employment_Population()
     else:
         break
+
 print("end")
 
