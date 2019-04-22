@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-
 class Crawler():
 
     def __init__(self, select_feature):
