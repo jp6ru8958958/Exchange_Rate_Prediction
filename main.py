@@ -18,15 +18,15 @@ class Crawler():
             self.URL = "https://tradingeconomics.com/united-states/non-farm-payrolls"
 
     def Consumer_Prise_Index(self):
-        driver = webdriver.Firefox()
-        driver.get(self.URL)
-        driver.find_element_by_link_text(u"全選").click()
-        driver.find_element_by_xpath(
+        self.driver = webdriver.Firefox()
+        self.driver.get(self.URL)
+        self.driver.find_element_by_link_text(u"全選").click()
+        self.driver.find_element_by_xpath(
             u"(.//*[normalize-space(text()) and normalize-space(.)='搜尋 文件開始'])[1]/preceding::option[83]").click()
-        driver.find_element_by_xpath(
+        self.driver.find_element_by_xpath(
             u"(.//*[normalize-space(text()) and normalize-space(.)='搜尋 文件開始'])[1]/preceding::option[2]").click()
-        driver.find_element_by_name("sel").click()
-        html = driver.page_source
+        self.driver.find_element_by_name("sel").click()
+        html = self.driver.page_source
         # print(html)
         soup = BeautifulSoup(html, "html.parser")
         CPI = soup.select("td", nowrap="")
@@ -47,15 +47,15 @@ class Crawler():
             print("")
 
     def Gross_Domestic_Product(self):
-        driver = webdriver.Firefox()
-        driver.get(self.URL)
-        driver.find_element_by_link_text(u"全選").click()
-        driver.find_element_by_xpath(
+        self.driver = webdriver.Firefox()
+        self.driver.get(self.URL)
+        self.driver.find_element_by_link_text(u"全選").click()
+        self.driver.find_element_by_xpath(
             u"(.//*[normalize-space(text()) and normalize-space(.)='搜尋 文件開始'])[1]/preceding::option[14]").click()
-        driver.find_element_by_xpath(
+        self.driver.find_element_by_xpath(
             u"(.//*[normalize-space(text()) and normalize-space(.)='搜尋 文件開始'])[1]/preceding::option[2]").click()
-        driver.find_element_by_name("sel").click()
-        html = driver.page_source
+        self.driver.find_element_by_name("sel").click()
+        html = self.driver.page_source
         # print(html)
         soup = BeautifulSoup(html, "html.parser")
         gdp = soup.select("td", nowrap="")
@@ -66,17 +66,17 @@ class Crawler():
             print("-----------------")
 
     def Unemployment_Rate(self):
-        driver = webdriver.Firefox()
-        driver.get(self.URL)
-        driver.find_element_by_link_text(u"全選").click()
-        driver.find_element_by_xpath(
+        self.driver = webdriver.Firefox()
+        self.driver.get(self.URL)
+        self.driver.find_element_by_link_text(u"全選").click()
+        self.driver.find_element_by_xpath(
             u"(.//*[normalize-space(text()) and normalize-space(.)='搜尋 文件開始'])[1]/preceding::option[4]").click()
-        driver.find_element_by_xpath(
+        self.driver.find_element_by_xpath(
             u"(.//*[normalize-space(text()) and normalize-space(.)='搜尋 文件開始'])[1]/preceding::option[3]").click()
-        driver.find_element_by_xpath(
+        self.driver.find_element_by_xpath(
             u"(.//*[normalize-space(text()) and normalize-space(.)='不全選'])[4]/following::option[1]").click()
-        driver.find_element_by_name("sel").click()
-        html = driver.page_source
+        self.driver.find_element_by_name("sel").click()
+        html = self.driver.page_source
         soup = BeautifulSoup(html, "html.parser")
         UR = soup.select("td", nowrap="")
         print("", end="          ")
